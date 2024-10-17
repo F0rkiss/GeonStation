@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.splashScreen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-color: rgba(36, 14, 17, 1);
+    background-image: url(/Img/SplashBG.png);
+    z-index: 200;
+    text-align: center;
+    line-height: 2000;
+}
+
+.splashScreen.display-none{
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Img/SplashBG.png);
+    z-index: -10;
+    color: white;
+    text-align: center;
+    line-height: 100vh;
+    transition: all 0.5s;
+}
+
+.texture{
+    position: static;
+
+    width: 2000px;
+    height: 1000px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/Img/SplashBG.png) ;
+    
+}
+
+.texture::before{
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/Img/SplashTexture.jpg) ;
+    opacity: 10%;
+}
+
+
+@keyframes fadeIn {
+    to{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+.gear{
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
+.navbarBG{
+    /*  */
+}
+
+.img-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.navbar {
+    padding-left: 25px;
+}
+
+.textLogo{
+    color: white;
+}
+
