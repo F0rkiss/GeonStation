@@ -90,6 +90,8 @@
     /* height: 1920px;
     width: 1080px; */
 
+    height: 120px;
+
     background-blend-mode: darken;
     background-repeat: repeat-y;
     background-repeat: repeat-x;
@@ -111,25 +113,24 @@
     font-family: Roboto Slab;
 }
 
-/* .textureNav{
-    background-image: url(/Img/navbar/navbarTexture.jpeg);
-    opacity: 100%;
-    z-index: 100;
-} */
 
 .backgroundImage{
-    background-image: url(/Img/mainContent/MainBG.png), 
-    url(/Img/mainContent/mainTexture.jpg);
+    position: fixed;
+    background-image: url(/Img/mainContent/mainTexture.jpg), 
+    url(/Img/mainContent/MainBG.png);
 
-    background-blend-mode: darken;
+    padding: 100%;
+    z-index: -10;
+
+    background-blend-mode: overlay;
     background-color: rgba(36, 14, 17, 1);
 }
 
-/* .navbar {
-    padding-left: 25px;
-}
+.accentBackground{
+    position: relative;
 
-.textLogo{
-    color: white;
-} */
+    background-image: url(/Img/mainContent/BehindCour&Cos.png);    
+
+    background-repeat: repeat;
+}
 
