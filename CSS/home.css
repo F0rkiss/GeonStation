@@ -116,8 +116,7 @@
 
 .backgroundImage{
     position: fixed;
-    background-image: url(/Img/mainContent/mainTexture.jpg), 
-    url(/Img/mainContent/MainBG.png);
+    background-image: url(/Img/mainContent/mainTexture.jpg);
 
     padding: 100%;
     z-index: -10;
@@ -126,11 +125,11 @@
     background-color: rgba(36, 14, 17, 1);
 }
 
-.accentBackground{
+/* .accentBackground{
     position: relative;
 
     background-image: url(/Img/mainContent/BehindCour&Cos.png);    
 
     background-repeat: repeat;
-}
+} */
 
