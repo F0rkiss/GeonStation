@@ -1,16 +1,17 @@
-.navbar {
-    padding-left: 25px;
+@media screen and (min-widht: 567px) {
+    .carousel-inner {
+        display: flex;
+    }
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/3);
+    }
 }
 
-.textLogo{
-    color: white;
+.carousel-inner{
+    padding: 1em;
 }
-
-.textNavbar{
-    color: white;
+.card{
+    margin: 0.5em;
 }
-
-.topText{
-    color: whitesmoke;
-}
-
