@@ -126,6 +126,13 @@
     background-color: rgba(36, 14, 17, 1);
 }
 
+.carousel{
+    background-image: url(/Img/mainContent/BehindCour&Cos.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* .accentBackground{
     position: relative;
 
