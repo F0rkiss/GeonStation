@@ -134,3 +134,39 @@
     background-repeat: repeat;
 } */
 
+.img-wrapper{
+    max-width: 10px;
+    height: 17em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+img{
+    max-width: 10px;
+    max-height: 100%;
+}
+
+@media screen and (min-widht: 576px){
+    .carousel-inner{
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-item{
+        display: block;
+        margin: 0;
+        flex: 0, 0, calc(100%/3);
+    }
+    .img-wrapper{
+        height: 23vw;
+    }
+}
+
+.carousel-inner{
+    padding: 1em;
+}
+
+.card{
+    margin: 0 .5em;
+    
+}
