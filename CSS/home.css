@@ -5,6 +5,7 @@
     padding: 0;
     margin: 0;
     font-family: Roboto Slab;
+    box-sizing: border-box;
 }
 
 .splashScreen{
@@ -46,7 +47,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: url(/Img/SplashScreen/SplashBG.png) ; */
     
 }
 
@@ -76,7 +76,6 @@
 
 .gear1{
     position: fixed;
-    /* display: inline-block; */
     padding-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
@@ -87,9 +86,6 @@
     position: relative;
     background-image: url(/Img/navbar/Mask\ group.png), 
     url(/Img/navbar/vectorNavbar.png);
-    
-    /* height: 1920px;
-    width: 1080px; */
 
     height: 120px;
 
@@ -126,54 +122,20 @@
     background-color: rgba(36, 14, 17, 1);
 }
 
-.carousel{
-    background-image: url(/Img/mainContent/BehindCour&Cos.png);
-
-    background-repeat: no-repeat;
-    background-position: center;
+.CosplayersText{
+    text-align: center;
+    display: contents;
+    justify-content: center;
+    color: aliceblue;
 }
 
-/* .accentBackground{
-    position: relative;
-
-    background-image: url(/Img/mainContent/BehindCour&Cos.png);    
-
-    background-repeat: repeat;
+/* .bg-vector{
+    background-image: url(/Img/mainContent/Vector.png);
+    
 } */
 
-.img-wrapper{
-    max-width: 10px;
-    height: 17em;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+.CosplayersText p{
+    padding-left:130px;
+    padding-bottom: 40px;
 }
 
-img{
-    max-width: 10px;
-    max-height: 100%;
-}
-
-@media screen and (min-widht: 576px){
-    .carousel-inner{
-        display: flex;
-        justify-content: center;
-    }
-    .carousel-item{
-        display: block;
-        margin: 0;
-        flex: 0, 0, calc(100%/3);
-    }
-    .img-wrapper{
-        height: 23vw;
-    }
-}
-
-.carousel-inner{
-    padding: 1em;
-}
-
-.card{
-    margin: 0 .5em;
-    
-}
